@@ -3,9 +3,9 @@ namespace MyClass\Util;
 
 class TimeAgo{
 
-  public static function rDate($date){
+  	public static function rDate($date){
 
-    if(empty($date)) {
+    		if(empty($date)) {
 
 			return "No date provided";
 
